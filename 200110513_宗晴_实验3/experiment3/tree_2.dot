@@ -1,0 +1,21 @@
+digraph G {
+20 [shape=circle, label="9"];
+20->21;
+_n2 [shape=circle, label="#", style=invis];
+20->_n2 [style=invis, weight=10];
+21 [shape=circle, label="8"];
+_n4 [shape=circle, label="#", style=invis];
+21->_n4 [style=invis, weight=10];
+21->24;
+24 [shape=circle, label="7"];
+24->29;
+_n6 [shape=circle, label="#", style=invis];
+24->_n6 [style=invis, weight=10];
+29 [shape=circle, label="6"];
+_n8 [shape=circle, label="#", style=invis];
+29->_n8 [style=invis, weight=10];
+29->40;
+40 [shape=circle, label="5"];
+_n10 [shape=circle, label="#", style=invis];
+40->_n10 [style=invis, weight=10];
+}
