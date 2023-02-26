@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1620042331 source:d:\shujujiegou\graph_linjiebiao\main.c
+	<stdio.h>
+	<stdlib.h>
+
